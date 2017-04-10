@@ -15,8 +15,7 @@ var another_response = getAnotherResponse();
   assert.equal(null, err);
   findRule(db, current_response, previous_response, another_response, function() {
       db.close();
-  });
-  console.log(c);
+  })
 });
 
 
