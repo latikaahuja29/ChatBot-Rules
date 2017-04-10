@@ -59,6 +59,7 @@ var findRule = function(db, current_response, previous_response, another_respons
                 count +=1;
                 if (count>1) return;
                 returnValue = events.map(event => event.params);
+console.log(event.params);
                 }}).catch(console.log);
           
          } else {
@@ -89,6 +90,7 @@ var findRule = function(db, current_response, previous_response, another_respons
                 count +=1;
                 if (count>1) return;
                 returnValue = events.map(event => event.params);
+console.log(event.params);
             }}).catch(console.log);
          }
             
